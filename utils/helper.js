@@ -1,4 +1,4 @@
-import { writeFileSync, readFileSync, existsSync, statSync } from 'fs'
+import { writeFileSync, readFileSync, existsSync, statSync, readdirSync } from 'fs'
 import fs from 'fs/promises'
 import path from 'path'
 import axios from 'axios'
@@ -232,7 +232,7 @@ function skipGithubID(detectedUser) {
 }
 
 // Sends Git Commit & Push to Remote
-async function gitSend(branch, timestamp, githubKey, files) {
+async function sendToRemote(branch, timestamp, githubKey, files) {
   try {
     if (githubKey) {
       execSync(`git add ${files}; git commit -S -m "dev3: ${timestamp}"; git push -u origin ${branch}`)
@@ -260,7 +260,7 @@ async function gitCommitPush(validated, branch, githubKey, detectedUser, rl, fil
       }
       rl.question(`⏰ Try git commit & push? [Y/N]: `, async (attempt) => {
         if (attempt.toLowerCase() === 'y' || attempt.toLowerCase() === 'yes') {
-          const _pushed = await gitSend(branch, timestamp, githubKey, files)
+          const _pushed = await sendToRemote(branch, timestamp, githubKey, files)
           resolve(_pushed)
           graphics.print(message, "lightgreen")
           graphics.print(`👋 BYEE!`, "lightgreen")
@@ -332,6 +332,17 @@ async function writeConfig(signerKey) {
       writeFileSync('.gitignore', `${gitignoreContents}\n${envContent}`)
     }
     writeFileSync('verify.json', JSON.stringify(verifyContent, null, 2))
+    const files = readdirSync('./')
+    for (const file of files) {
+      const filePath = path.join('./', file)
+      if (statSync(filePath).isFile()) {
+        const ext = path.extname(filePath)
+        // Check if the file has a webpage extension
+        if (!['.html', '.htm', '.htmx'].includes(ext.toLowerCase())) {
+          writeFileSync('index.html', JSON.stringify(constants.htmlContent, null, 2))
+        }
+      }
+    }
     return true
   }
 }
