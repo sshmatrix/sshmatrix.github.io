@@ -1,7 +1,3 @@
-.env
 node_modules
+.env
 package-lock.json
-*.tgz
-.DS_Store
-*/.DS_Store
-*/*/.DS_Store

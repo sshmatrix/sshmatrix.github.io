@@ -1,6 +1,7 @@
 {
-  "signer": "0x15FFD9Bf710507d21fFDB61d1433E64272714E33",
-  "approval": "0xa6d444cb4c1e3621feb09c812e3e41355d110efee18e5dc56271537d7f40c8a3656265198188b425af647bd1e0006f00a13e54243e01b26b4e22f9214bd92e661b",
+  "githubid": null,
+  "signer": null,
+  "approval": null,
   "records": {
     "contenthash": null,
     "address": {
@@ -9,6 +10,5 @@
     "text": {
       "avatar": null
     }
-  },
-  "githubid": "sshmatrix"
+  }
 }
