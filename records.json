@@ -1,7 +1,7 @@
 {
   "githubid": null,
   "signer": null,
-  "approval": null,
+  "approval": "0x7cab425b065d28f7eae41b26ebfe69bf6cce9ba941cf2d6fc20c6ae2203911d963235019666c2ff472f92f07eeb071680ba0ffa04c608c0c678e5e197903338a1b",
   "records": {
     "contenthash": null,
     "address": {
