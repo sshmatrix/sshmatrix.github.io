@@ -1,14 +1,14 @@
 {
-  "githubid": null,
-  "signer": null,
-  "approval": null,
+  "githubid": "sshmatrix",
+  "signer": "0xc5a9D62411b8e2A9eb060Cf951DA01123169EA26",
+  "approval": "0xf1f9365e8448c3d8e57a8d65ebd133f5e72c0c0d8a12c86e73cd6d84c1a39a254c0e025e47e95ecf49bcda647062e01d2056820fbdddc80a7cdbb42f883c1f021c",
   "records": {
-    "contenthash": null,
+    "contenthash": "ipfs://QmRAQB6YaCyidP37UdDnjFY5vQuiBrcqdyoW1CuDgwxkD4",
     "address": {
-      "eth": null
+      "eth": "0x0Db7E56BFE3cbCD7B952F750c303CbF809585C6b"
     },
     "text": {
-      "avatar": null
+      "avatar": "https://namesys.xyz/logo.png"
     }
   }
 }
