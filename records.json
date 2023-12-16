@@ -1,11 +1,11 @@
 {
-  "githubid": null,
-  "signer": null,
-  "approval": null,
+  "githubid": "sshmatrix",
+  "signer": "0x79b79d80a5A8b14263eAb45FE2A9f725C0Bf1014",
+  "approval": "0x4cc296c8da2e39df2e4c529001eac7f31e53324f017551af918684f3b193240611862fec41c6176ff64446ca6c37f8ba5793a59d7b6a3231715ed1ecf35473381b",
   "records": {
     "contenthash": null,
     "address": {
-      "eth": null
+      "eth": "0x0Db7E56BFE3cbCD7B952F750c303CbF809585C6b"
     },
     "text": {
       "avatar": null
