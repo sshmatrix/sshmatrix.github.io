@@ -1,14 +1,14 @@
 {
-  "signer": "0xf741E0844BF28FAe5Bf4745eb5E03a9F6f0575F4",
-  "approval": "0x02d63ba989fb798fae4c0d5bf445999afb0c69453c0598269cdfabcb9c585e330b54bbc6d0d765afa88200c3b1f6e2e46e7ea50cb140a7537d08f82e4a2b94781c",
+  "githubid": null,
+  "signer": null,
+  "approval": null,
   "records": {
+    "contenthash": null,
     "address": {
-      "eth": "0x0Db7E56BFE3cbCD7B952F750c303CbF809585C6b"
+      "eth": null
     },
     "text": {
       "avatar": null
-    },
-    "contenthash": null
-  },
-  "githubid": "namesys-eth"
+    }
+  }
 }
