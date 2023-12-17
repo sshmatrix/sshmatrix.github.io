@@ -4,5 +4,6 @@
   "signer": "0x79b79d80a5A8b14263eAb45FE2A9f725C0Bf1014",
   "signature": "0x0f8807f2677d629fbfbf06800d6a2f7cd228818435d9f8bdf70371ccba422603203ac9b1996f06abf3a25f48fc3e21f082e67e8beb7483756a4abad114bc81e81b",
   "approved": true,
-  "approval": "0x4cc296c8da2e39df2e4c529001eac7f31e53324f017551af918684f3b193240611862fec41c6176ff64446ca6c37f8ba5793a59d7b6a3231715ed1ecf35473381b"
+  "approval": "0x4cc296c8da2e39df2e4c529001eac7f31e53324f017551af918684f3b193240611862fec41c6176ff64446ca6c37f8ba5793a59d7b6a3231715ed1ecf35473381b",
+  "payload": "Requesting Signature To Update ENS Record\n\nGateway: https://sshmatrix.github.io\nResolver: eip155:5:0x83c25dbcfd8d79a9e0f9f7f6cfc5b21716acf469\nRecord Type: address/60\nExtradata: 0x63bef4d1c658d6c8f2941813fff00203dff42a67ade18af3b894d8b3ec988254\nSigned By: eip155:5:0x79b79d80a5A8b14263eAb45FE2A9f725C0Bf1014"
 }
