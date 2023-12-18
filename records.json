@@ -1,14 +1,14 @@
 {
-  "githubid": null,
-  "signer": null,
-  "approval": null,
+  "githubid": "sshmatrix",
+  "signer": "0x9cAadE3bC750F48458C4C56003b0779356e918D8",
+  "approval": "0x646e62d806853fe67c8af6d0698bce7b2710ed3e7a6d874c8edea4a7b8532d37429d7861fd745200c476354c9b254f8d748f959ebecada58e2ed0db5b1e300d01c",
   "records": {
-    "contenthash": null,
+    "contenthash": "ipfs://QmSq8nvro3qVB5KmwRxGrhxij75t3thvLjX7eGVSzYuZw1",
     "address": {
-      "eth": null
+      "eth": "0x47C10B0491A138Ddae6cCfa26F17ADCfCA299753"
     },
     "text": {
-      "avatar": null
+      "avatar": "https://iili.io/JAJkeXj.jpg"
     }
   }
 }
